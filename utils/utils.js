@@ -52,7 +52,7 @@ module.exports.shipmentNotification = (
 <div >
     <p style=" margin-bottom: 40px; width: 100%;text-align: center;font-size:1rem">
 
-    An order with the Reference No ${cossignmentNo} has been shipped to you. kindly  visit our website on https://www.secsonlines.biz to track the shippment with its Reference No
+    An order with the Reference No ${cossignmentNo} has been shipped to you. kindly  visit our website on https://www.seconline.biz to track the shippment with its Reference No
     </p>
 
     <h2 style=" margin-bottom:30px; width: 100%; text-align: center ">Shippment Information</h2>

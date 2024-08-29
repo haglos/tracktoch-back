@@ -501,8 +501,8 @@ module.exports.newCosignment = async (req, res, next) => {
             "Messages": [
                {
                   "From": {
-                     "Email": "skylane@secsonlines.biz",
-                     "Name": "secsonlines"
+                     "Email": "skylane@seconline.biz",
+                     "Name": "seconline"
                   },
                   "To": [
                      {
@@ -714,15 +714,15 @@ module.exports.newHistory = async (req, res, next) => {
       const mailjet = Mailjet.apiConnect(process.env.MAILJET_APIKEY, process.env.MAILJET_SECRETKEY
       )
       
-      //skylane@secsonlines.biz
+      //skylane@seconline.biz
 
       const request = await mailjet.post("send", { 'version': 'v3.1' })
          .request({
             "Messages": [
                {
                   "From": {
-                     "Email": "skylane@secsonlines.biz",
-                     "Name": "secsonlines"
+                     "Email": "skylane@seconline.biz",
+                     "Name": "seconline"
                   },
                   "To": [
                      {
@@ -764,15 +764,15 @@ module.exports.sendEmail = async (req, res, next) => {
       const mailjet = Mailjet.apiConnect(process.env.MAILJET_APIKEY, process.env.MAILJET_SECRETKEY
       )
       
-      //skylane@secsonlines.biz
+      //skylane@seconline.biz
 
       const request = await mailjet.post("send", { 'version': 'v3.1' })
          .request({
             "Messages": [
                {
                   "From": {
-                     "Email": "skylane@secsonlines.biz",
-                     "Name": "secsonlines"
+                     "Email": "skylane@seconline.biz",
+                     "Name": "seconline"
                   },
                   "To": [
                      {
